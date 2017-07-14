@@ -3,6 +3,7 @@ version: 0.1.0.{branch}.{build}
 clone_depth: 50
 
 environment:
+  GOPATH: c:\gopath
   simplenote_email:
     secure: n025//acdZ0/RDW6A+V2B3+haG+47/AI5jcJXlWYoac=
   simplenote_password:
@@ -15,9 +16,6 @@ build:
 
 clone_folder: c:\gopath\src\github.com\sgykfjsm\simplenote
 
-environment:
-  GOPATH: c:\gopath
-
 install:
   - echo %PATH%
   - echo %GOPATH%
@@ -26,5 +24,4 @@ install:
   - go env
 
 build_script:
-  - make clean
-  - make test
+  - go test -v -i -race .
