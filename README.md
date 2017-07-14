@@ -3,6 +3,9 @@
 [![CircleCI](https://circleci.com/gh/sgykfjsm/simplenote.svg?style=svg)](https://circleci.com/gh/sgykfjsm/simplenote)
 [![Build Status](https://travis-ci.org/sgykfjsm/simplenote.svg?branch=master)](https://travis-ci.org/sgykfjsm/simplenote)
 [![Build status](https://ci.appveyor.com/api/projects/status/aaix204wi8jiwnvs/branch/master?svg=true)](https://ci.appveyor.com/project/sgykfjsm/simplenote/branch/master)
+[![Code Climate](https://codeclimate.com/github/sgykfjsm/simplenote/badges/gpa.svg)](https://codeclimate.com/github/sgykfjsm/simplenote)
+[![Test Coverage](https://codeclimate.com/github/sgykfjsm/simplenote/badges/coverage.svg)](https://codeclimate.com/github/sgykfjsm/simplenote/coverage)
+[![Issue Count](https://codeclimate.com/github/sgykfjsm/simplenote/badges/issue_count.svg)](https://codeclimate.com/github/sgykfjsm/simplenote)
 
 This is simple pure golang wrapper for [simplenote.com](https://simplenote.com/).
 
