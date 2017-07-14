@@ -1,6 +1,7 @@
 # simplenote for Go
 
 [![CircleCI](https://circleci.com/gh/sgykfjsm/simplenote.svg?style=svg)](https://circleci.com/gh/sgykfjsm/simplenote)
+[![Build Status](https://travis-ci.org/sgykfjsm/simplenote.svg?branch=master)](https://travis-ci.org/sgykfjsm/simplenote)
 
 This is simple pure golang wrapper for [simplenote.com](https://simplenote.com/).
 
